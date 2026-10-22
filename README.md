@@ -1,5 +1,9 @@
 # Massey University Club Activity Registration System
 
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![OOP](https://img.shields.io/badge/Architecture-OOP-blue?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
 A Java console application designed to simulate a university club activity registration workflow. Built using Object-Oriented Programming (OOP) principles, encapsulation, and dynamic collection management (`ArrayList`).
 
 ## 🚀 Features & Capabilities
@@ -34,6 +38,23 @@ A Java console application designed to simulate a university club activity regis
    Bash
    java MasseyRegistrationSystem
    ```
+
+## Sample Output 1
+
+![Sample Output 1](1.png)
+
+## Sample Output 2
+
+![Sample Output 2](2.png)
+
+## Sample Output 3
+
+![Sample Output 3](3.png)
+
+## Sample Output 4
+
+![Sample Output 4](4.png)
+
 
 👤 **Author**<br>
 Subrota Debnath<br>
