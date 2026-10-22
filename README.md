@@ -17,6 +17,37 @@ A Java console application designed to simulate a university club activity regis
 - `Students.java` — Model class representing student profiles and their individual list of registered activities.
 - `RegisteredActivities.java` — Association class linking a student to a specific `Activities` object along with their chosen attendance mode.
 
+## 🏗️ System Architecture (Class Diagram)
+```mermaid
+classDiagram
+    MasseyRegistrationSystem ..> Students : manages
+    MasseyRegistrationSystem ..> Activities : initializes
+    Students "1" *-- "1..4" RegisteredActivities : enrolls in
+    RegisteredActivities --> "1" Activities : references
+
+    class Activities {
+        -String id
+        -String name
+        -String category
+        -String timeSlot
+        -boolean requiresCheckIn
+        -boolean hasCompetition
+        -ArrayList~String~ mode
+    }
+    class Students {
+        -String id
+        -String firstName
+        -String lastName
+        -String campus
+        -ArrayList~RegisteredActivities~ registeredActList
+        +addRegisteredActivity(RegisteredActivities)
+    }
+    class RegisteredActivities {
+        -Activities activity
+        -String activityMode
+    }
+```
+
 ## 💻 How to Run
 
 ### Prerequisites
