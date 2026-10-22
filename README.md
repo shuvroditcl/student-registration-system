@@ -1,17 +1,17 @@
 # Massey University Club Activity Registration System
 
-A Java console application designed to simulate a university club activity registration workflow[cite: 6]. Built using Object-Oriented Programming (OOP) principles, encapsulation, and dynamic collection management (`ArrayList`)[cite: 7, 11, 12, 14].
+A Java console application designed to simulate a university club activity registration workflow. Built using Object-Oriented Programming (OOP) principles, encapsulation, and dynamic collection management (`ArrayList`).
 
 ## 🚀 Features & Capabilities
-- **Activity Management:** Stores and categorizes university club activities with time slots, check-in requirements, competition status, and delivery modes (`Auckland`, `PN`, `Online`)[cite: 6, 11, 12].
-- **Rule-Based Random Registration:** Automatically enrolls students into 1 to 4 unique activities based on campus eligibility (`Auckland` or `Palmerston North`) and online availability[cite: 6, 12].
-- **Automated Reporting:** Generates structured console outputs across 8 core tasks, filtering activities by category, check-in/competition criteria, and student enrollment queries[cite: 7, 12].
+- **Activity Management:** Stores and categorizes university club activities with time slots, check-in requirements, competition status, and delivery modes (`Auckland`, `PN`, `Online`).
+- **Rule-Based Random Registration:** Automatically enrolls students into 1 to 4 unique activities based on campus eligibility (`Auckland` or `Palmerston North`) and online availability.
+- **Automated Reporting:** Generates structured console outputs across 8 core tasks, filtering activities by category, check-in/competition criteria, and student enrollment queries.
 
 ## 📂 Project Structure
-- `MasseyRegistrationSystem.java` — Main driver class containing dataset initialization, randomized registration logic, and task reporting (Tasks 1–8)[cite: 12].
-- `Activities.java` — Model class representing club activities, schedules, attributes, and supported delivery modes[cite: 11].
-- `Students.java` — Model class representing student profiles and their individual list of registered activities[cite: 14].
-- `RegisteredActivities.java` — Association class linking a student to a specific `Activities` object along with their chosen attendance mode[cite: 13].
+- `MasseyRegistrationSystem.java` — Main driver class containing dataset initialization, randomized registration logic, and task reporting (Tasks 1–8).
+- `Activities.java` — Model class representing club activities, schedules, attributes, and supported delivery modes.
+- `Students.java` — Model class representing student profiles and their individual list of registered activities.
+- `RegisteredActivities.java` — Association class linking a student to a specific `Activities` object along with their chosen attendance mode.
 
 ## 💻 How to Run
 
